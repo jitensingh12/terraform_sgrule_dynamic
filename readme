@@ -1,0 +1,2 @@
+This is for creting dynamic AWS security group rule creation in using loops by terraform.
+Terraform version 1.7
