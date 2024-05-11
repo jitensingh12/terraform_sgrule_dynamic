@@ -1,0 +1,13 @@
+variable "rule_matrix" {
+  #type  = any  // not working
+  type = map(any)
+  #map(object({
+  #rules = [{
+  #       type = ""
+  #       from_port = ""
+  #       to_port = ""
+  #      protocol = ""
+  #     cidr_blocks = ""
+  #   	}]
+  default = {}
+}
